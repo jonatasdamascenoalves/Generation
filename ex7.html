@@ -1,0 +1,22 @@
+<script>
+
+var nome,resultado,n1,n2,n3,media;
+
+nome = prompt("Digite seu Nome: ");
+n1 = parseFloat(prompt("Digite sua primeira nota: "));
+n2 = parseFloat(prompt("Digite sua segunda nota: "));
+n3 = parseFloat(prompt("Digite sua terceira nota: "));
+media=(n1 + n2 + n3)/3;
+media=media.toFixed()
+
+if(media >= 7){
+    resultado = " Aprovado \n PARABÉNS";
+}
+else{
+    resultado = " Reprovado \n NÃO FOI DESSA VEZ";
+}
+
+alert (nome + "\n Sua média foi: " + media + resultado);
+
+
+</script>
